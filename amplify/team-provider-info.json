@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-loudmouth-dev-121144-authRole",
+      "UnauthRoleArn": "arn:aws:iam::755956835466:role/amplify-loudmouth-dev-121144-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::755956835466:role/amplify-loudmouth-dev-121144-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-loudmouth-dev-121144-deployment",
+      "UnauthRoleName": "amplify-loudmouth-dev-121144-unauthRole",
+      "StackName": "amplify-loudmouth-dev-121144",
+      "StackId": "arn:aws:cloudformation:us-east-2:755956835466:stack/amplify-loudmouth-dev-121144/84672bc0-0f35-11ec-aa7c-0ac67feaac3e",
+      "AmplifyAppId": "d1wp9llzzdh5k9"
+    }
+  }
+}
