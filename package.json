@@ -19,6 +19,9 @@
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
+  "resolutions": {
+    "**/**/node-gyp": "5.0.0"
+},
   "dependencies": {
     "@aws-amplify/ui-react": "^1.2.13",
     "@emotion/react": "11.1.5",
