@@ -1,6 +1,5 @@
 const gulp = require("gulp");
 const gap = require("gulp-append-prepend");
-import './clean';
 
 gulp.task('dev', gulp.series('clean'));
 
