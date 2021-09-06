@@ -76,4 +76,8 @@ gulp.task("licenses", async function () {
   return;
 });
 
-gulp.task('default', ['serve']);
+gulp.task('server', gulp.series('build', function(){
+  browser.init({server: './_site', port: port});
+}));
+
+//gulp.task('default', gulp.series('server', 'watch'));
